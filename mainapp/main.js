@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 const queryClient = new QueryClient();
 const Main = () => {
 
-    const [token, setToken] = useState(true); //I will use boolean instead of actual string token
+    const [token, setToken] = useState(false); //I will use boolean instead of actual string token
     const TokenValue = useMemo(() => ({ token, setToken }), [token, setToken])
     return (
         <QueryClientProvider client={queryClient}>
