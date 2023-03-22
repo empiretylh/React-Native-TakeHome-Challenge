@@ -62,7 +62,7 @@ const Home = ({ navigation }) => {
 
   const renderHeader = () => {
     return (
-      <View style={{marginTop:70,marginBottom:20}}>
+      <View style={{marginTop:80,marginBottom:20}}>
         <TextInput style={styles.textfield} placeholder={'Name..'} />
         <View style={{ marginTop: 5, display: 'flex', flexDirection: 'row' }}>
           <TouchableOpacity style={styles.choice}>

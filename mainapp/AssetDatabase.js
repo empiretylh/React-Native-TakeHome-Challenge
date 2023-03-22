@@ -17,5 +17,8 @@ export const COLOR = {
 export const IMAGE = {
   loadgif: require('./assets/spinnerloading.gif'),
   app_logo: require('./assets/icon.png'),
+  pokemon:require('./assets/p1.jpg'),
+
+  header:require('./assets/pok.png'),
 };
 

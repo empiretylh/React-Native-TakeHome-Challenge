@@ -89,13 +89,7 @@ const Login = ({navigation}) => {
           }}>
           <Text style={{color: 'white',fontWeight:'bold',fontSize:18}}>Login</Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => {
-            setToken(true);
-          }}>
-          <Text style={{color: 'white',fontWeight:'bold',fontSize:18}}>Sign Up</Text>
-        </TouchableOpacity>
+        
       </View>
     </ScrollView>
   );
