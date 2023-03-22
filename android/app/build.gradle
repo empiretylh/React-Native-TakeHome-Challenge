@@ -221,10 +221,10 @@ android {
         }
 
         release {
-            storeFile file('salesdigits.keystore')
-            storePassword 'salesdigits'
-            keyAlias 'salesdigits'
-            keyPassword 'salesdigits'
+            storeFile file('takehome.keystore')
+            storePassword 'takehome'
+            keyAlias 'takehome'
+            keyPassword 'takehome'
         }
         
     }
