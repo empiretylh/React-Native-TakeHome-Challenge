@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import {COLOR,IMAGE} from '../AssetDatabase';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {MessageModalNormal} from '../extra/CustomModal';
+import {CustomModal} from '../extra/CustomModal';
 import { AuthContext } from '../context/context';
 
 const Login = ({navigation}) => {
@@ -27,10 +27,10 @@ const Login = ({navigation}) => {
 
   return (
     <ScrollView>
-      <MessageModalNormal show={load} width={'20%'}>
+      <CustomModal show={load} width={'20%'}>
         <ActivityIndicator size={'large'} color={'#000'} />
         <Text style={{color: '#000', textAlign: 'center'}}>Loging</Text>
-      </MessageModalNormal>
+      </CustomModal>
       <View
         style={{alignItems: 'center', justifyContent: 'center', padding: 30}}>
         <Image source={IMAGE.app_logo} style={{width:200,height:200}} resizeMode={'contain'}/>

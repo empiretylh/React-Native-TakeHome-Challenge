@@ -13,9 +13,7 @@ import {
   Dimensions,
   StyleSheet,
 } from 'react-native';
-import DropDownPicker from 'react-native-dropdown-picker';
-import {IMAGE, COLOR} from '../AssetDatabase';
-import {SelectedContext} from '../context/context';
+import {IMAGE, COLOR} from '../AssetDatabase'
 import Icons from 'react-native-vector-icons/Ionicons';
 import {
   QueryClient,
