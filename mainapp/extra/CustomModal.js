@@ -10,7 +10,7 @@ import {
   Alert,
 } from 'react-native';
 
-export const MessageModalNormal = ({
+export const CustomModal = ({
   show,
   children,
   onClose,

@@ -19,8 +19,11 @@ const Main = () => {
         <AuthContext.Provider value={TokenValue}>
             <NavigationContainer>
                 <Stack.Navigator screenOptions={{ headerShown: false }}>
-                    {token ? <Stack.Screen name="Home" component={Home} /> :
-                        <Stack.Screen name="Login" component={Login} />
+                    {token ?
+                    <>
+                    <Stack.Screen name="Home" component={Home} />
+                      </> :
+                    <Stack.Screen name="Login" component={Login} />
                     }
                 </Stack.Navigator>
             </NavigationContainer>
