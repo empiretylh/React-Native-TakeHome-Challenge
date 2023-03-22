@@ -20,7 +20,7 @@ protected void onCreate(Bundle savedInstanceState) {
    */
   @Override
   protected String getMainComponentName() {
-    return "salesdigit";
+    return "Pokemon Take Home";
   }
 
   /**
